@@ -1,0 +1,166 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local Raygun = Instance.new("TextButton")
+local MP5k = Instance.new("TextButton")
+local ShotGun = Instance.new("TextButton")
+local M14 = Instance.new("TextButton")
+local SVD = Instance.new("TextButton")
+local M16A2 = Instance.new("TextButton")
+local AWP = Instance.new("TextButton")
+local M4A1 = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local G36C = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.5, -197, 0.5, -153)
+main.Size = UDim2.new(0, 395, 0, 306)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label.Size = UDim2.new(0, 395, 0, 50)
+label.Font = Enum.Font.SciFi
+label.Text = "SAKTK Gun Gui| Made by RedDeath6677 v1"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 20.000
+
+Raygun.Name = "Raygun"
+Raygun.Parent = main
+Raygun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Raygun.Position = UDim2.new(0.0202531647, 0, 0.188925087, 0)
+Raygun.Size = UDim2.new(0, 159, 0, 12)
+Raygun.Font = Enum.Font.SciFi
+Raygun.Text = "Raygun"
+Raygun.TextColor3 = Color3.fromRGB(0, 0, 0)
+Raygun.TextSize = 11.000
+Raygun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/Survive%26ktkRayGunScript"), true))()
+end)
+
+MP5k.Name = "MP5k"
+MP5k.Parent = main
+MP5k.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MP5k.Position = UDim2.new(0.54936707, 0, 0.188925087, 0)
+MP5k.Size = UDim2.new(0, 159, 0, 12)
+MP5k.Font = Enum.Font.SciFi
+MP5k.Text = "MP5k"
+MP5k.TextColor3 = Color3.fromRGB(0, 0, 0)
+MP5k.TextSize = 14.000
+MP5k.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKMP5K"), true))()
+end)
+
+ShotGun.Name = "ShotGun"
+ShotGun.Parent = main
+ShotGun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShotGun.Position = UDim2.new(0.0202531219, 0, 0.250814348, 0)
+ShotGun.Size = UDim2.new(0, 159, 0, 12)
+ShotGun.Font = Enum.Font.SciFi
+ShotGun.Text = "ShotGun"
+ShotGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShotGun.TextSize = 14.000
+ShotGun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKR870"), true))()
+end)
+
+M14.Name = "M14"
+M14.Parent = main
+M14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+M14.Position = UDim2.new(0.54936707, 0, 0.250814348, 0)
+M14.Size = UDim2.new(0, 159, 0, 12)
+M14.Font = Enum.Font.SciFi
+M14.Text = "M14"
+M14.TextColor3 = Color3.fromRGB(0, 0, 0)
+M14.TextSize = 14.000
+M14.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKM14"), true))()
+end)
+
+SVD.Name = "SVD"
+SVD.Parent = main
+SVD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SVD.Position = UDim2.new(0.0202531219, 0, 0.315960944, 0)
+SVD.Size = UDim2.new(0, 159, 0, 12)
+SVD.Font = Enum.Font.SciFi
+SVD.Text = "SVD"
+SVD.TextColor3 = Color3.fromRGB(0, 0, 0)
+SVD.TextSize = 14.000
+SVD.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKSVD"), true))()
+end)
+
+M16A2.Name = "M16A2"
+M16A2.Parent = main
+M16A2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+M16A2.Position = UDim2.new(0.54936707, 0, 0.315960944, 0)
+M16A2.Size = UDim2.new(0, 159, 0, 12)
+M16A2.Font = Enum.Font.SciFi
+M16A2.Text = "M16A2"
+M16A2.TextColor3 = Color3.fromRGB(0, 0, 0)
+M16A2.TextSize = 14.000
+M16A2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKM16A2"), true))()
+end)
+
+AWP.Name = "AWP"
+AWP.Parent = main
+AWP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AWP.Position = UDim2.new(0.0202531219, 0, 0.384364843, 0)
+AWP.Size = UDim2.new(0, 159, 0, 12)
+AWP.Font = Enum.Font.SciFi
+AWP.Text = "AWP"
+AWP.TextColor3 = Color3.fromRGB(0, 0, 0)
+AWP.TextSize = 14.000
+AWP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKAWP"), true))()
+end)
+
+M4A1.Name = "M4A1"
+M4A1.Parent = main
+M4A1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+M4A1.Position = UDim2.new(0.54936707, 0, 0.384364843, 0)
+M4A1.Size = UDim2.new(0, 159, 0, 12)
+M4A1.Font = Enum.Font.SciFi
+M4A1.Text = "M4A1"
+M4A1.TextColor3 = Color3.fromRGB(0, 0, 0)
+M4A1.TextSize = 14.000
+M4A1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKM4A1"), true))()
+end)
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.Position = UDim2.new(0.281012654, 0, 0.557567537, 0)
+InfiniteYield.Size = UDim2.new(0, 159, 0, 36)
+InfiniteYield.Font = Enum.Font.SciFi
+InfiniteYield.Text = "InfiniteYield Admin Gui"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+G36C.Name = "G36C"
+G36C.Parent = main
+G36C.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G36C.Position = UDim2.new(0.0202531219, 0, 0.446456343, 0)
+G36C.Size = UDim2.new(0, 159, 0, 12)
+G36C.Font = Enum.Font.SciFi
+G36C.Text = "G36C"
+G36C.TextColor3 = Color3.fromRGB(0, 0, 0)
+G36C.TextSize = 14.000
+G36C.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKG36C"), true))()
+end)
