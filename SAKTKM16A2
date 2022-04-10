@@ -13,7 +13,7 @@ for i,v in pairs(getgc(true)) do
 end;end;end;end
 function packapunch()
  if game:GetService("ReplicatedStorage")["Remote Functions"]:FindFirstChild("PAP Weapon") then
- game:GetService("ReplicatedStorage")["Remote Functions"]["PAP Weapon"]:InvokeServer("M1911")
+ game:GetService("ReplicatedStorage")["Remote Functions"]["PAP Weapon"]:InvokeServer("M16A2")
 game:GetService("ReplicatedStorage")["Remote Events"].PAPFinished:FireServer()
 end
 end
@@ -27,8 +27,8 @@ end)
 
 plrcframe = plr.Character.HumanoidRootPart.CFrame
 wait()
-plr.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Weapons.M1911.Hitbox.CFrame
+plr.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Weapons.M16A2.Hitbox.CFrame
 repeat wait()
-until plr.Backpack:FindFirstChild("M1911")
+until plr.Backpack:FindFirstChild("M16A2")
 plr.Character.HumanoidRootPart.CFrame = plrcframe
 packapunch()
