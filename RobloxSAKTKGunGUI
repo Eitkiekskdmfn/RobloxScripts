@@ -3,6 +3,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local label = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 local Raygun = Instance.new("TextButton")
 local MP5k = Instance.new("TextButton")
 local ShotGun = Instance.new("TextButton")
@@ -13,6 +14,9 @@ local AWP = Instance.new("TextButton")
 local M4A1 = Instance.new("TextButton")
 local InfiniteYield = Instance.new("TextButton")
 local G36C = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 
 --Properties:
 
@@ -31,9 +35,11 @@ label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 label.Size = UDim2.new(0, 395, 0, 50)
 label.Font = Enum.Font.SciFi
-label.Text = "SAKTK Gun Gui| Made by RedDeath6677 v1"
+label.Text = "SAKTK Gun Gui| Made by RedDeath6677 v1.1"
 label.TextColor3 = Color3.fromRGB(0, 0, 0)
 label.TextSize = 20.000
+
+UICorner.Parent = label
 
 Raygun.Name = "Raygun"
 Raygun.Parent = main
@@ -164,3 +170,30 @@ G36C.TextSize = 14.000
 G36C.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Eitkiekskdmfn/RobloxScripts/main/SAKTKG36C"), true))()
 end)
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.949367106, 0, 0, 0)
+Close.Size = UDim2.new(0, 20, 0, 24)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 20.000
+
+UICorner_2.Parent = Close
+
+UICorner_3.Parent = main
+
+-- Scripts:
+
+local function UGMJGCF_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(UGMJGCF_fake_script)()
