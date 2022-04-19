@@ -35,7 +35,7 @@ label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 label.Size = UDim2.new(0, 395, 0, 50)
 label.Font = Enum.Font.SciFi
-label.Text = "SAKTK Gun Gui| Made by RedDeath6677 v1.1"
+label.Text = "SAKTK Gun Gui| Made by red_Jeff v1.1"
 label.TextColor3 = Color3.fromRGB(0, 0, 0)
 label.TextSize = 20.000
 
